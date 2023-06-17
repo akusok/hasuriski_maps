@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hasuriski-maps"
+version = "0.1.0"
+description = ""
+authors = ["Anton Akusok <akusok.a@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hasuriski_maps"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.0.2"
+pandas = "^2.0.2"
+scikit-learn = "^1.2.2"
+scikit-learn-intelex = "^2023.1.1"
+pyspark = "^3.4.0"
+numpy = "^1.24.3"
+gdal = "3.6.4"
+matplotlib = "^3.7.1"
+geopandas = "^0.13.2"
+seaborn = "^0.12.2"
+pillow = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
